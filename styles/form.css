@@ -1,0 +1,24 @@
+.Submitbtn,
+.Clearbtn {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Submitbtn:active,
+.Clearbtn:active {
+    transform: scale(0.98);
+    background-color: blue;
+}
+
+
+.Submitbtn:hover {
+    
+}
+.Submitbtn {
+    background-color: green;
+}
+.Clearbtn {
+    background-color: red;
+}

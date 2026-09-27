@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Contact_form</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Neon % Night</h1>
+            <a href="Home">Home</a>
+            <a href="About us"></a>
+            <a href="Gallery">Gallery</a>
+            <a href="Contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+    <h1>Contact</h1>
+    <form action="">
+        <fieldset>
+        <legend>Contact form</legend>
+        <label for="name1">Firstname:</label>
+        <input type="text" required placeholder="Firstname" name="name1" id="name1">
+        <label for="name2">Lastname:</label>
+        <input type="text" required placeholder="Lastname" name="name2" id="name2">
+        <label for="tel">Phone:</label>
+        <input type="tel" required placeholder="+46******" name="phone" id="tel">
+        <label for="email" >Email:</label>
+        <input type="email" required placeholder="email" name="email" id="email">
+        <label for="subject">Reason for contact:</label>
+        <select name="subject" id="subject" required>
+            <option value="" disabled>Choose a reason</option>
+            <option value="Bookings">Bookings</option>
+            <option value="Complaints">Complaints</option>
+            <option value="Suggestions">Suggestions</option>
+            <option value="Other">Other</option>
+        </select>
+        <label for="message">Write your message here:</label>
+        <textarea name="message" required id="message"></textarea>
+        <input type="checkbox" name="newsletter" id="checkbox">
+        <label class="checkbox" for="checkbox">Sign up to our newsletter</label>
+        <button class="Clearbtn" type="reset">Clear</button>
+        <button class="Submitbtn" type="submit">Submit</button>
+        </fieldset>
+    </form>
+    </main>
+    
+    
+</body>
+</html>
